@@ -1,0 +1,234 @@
+
+#seccion-uno{
+ 	/*margin-top: 54%;*/
+}
+#seccion-uno, #seccion-dos, #seccion-tres, #seccion-cuatro, #seccion-cinco{
+ 	text-align: center;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+  }
+#mapa{
+	width: 100%;
+	height: 100% !important;
+}
+
+#slider{
+	
+max-width: 100%;
+	height: 500px;
+	
+}
+#slider h2{
+	margin-top: 70px;
+}
+
+
+header nav {
+	background:#2988b9;
+}
+header nav ul li a {
+	display: block;
+	color:#fff;
+	text-decoration: none;
+}
+ header nav ul li a:hover {
+	background:#2980b9;
+}
+ 
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.menu-fixed {
+	position:fixed;
+	z-index:1000;
+	top:0;
+	/*max-width:1000px;*/
+	left:0;
+	width:100%;
+
+	box-shadow:0px 4px 3px rgba(0,0,0,.5);
+}
+
+
+#modal1{
+	height: 100% !important;
+	width: 90% !important;
+}
+
+#banner{
+	background-image: url(../img/slider1.jpg);
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+#banner2{
+	background-image: url(../img/slider2.jpg);
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+    
+}
+#banner3{
+	background-image: url(../img/slider3.jpg);
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+    
+}
+#banner4{
+	background-image: url(../img/slider4.jpg);
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	
+    
+}
+#banner5{
+	background-image: url(../img/slider5.jpg);
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#imagen{
+	height: 300px;
+	 width: 100%;
+
+
+}
+
+
+/*---  Hover en la imagen de multimedia efecto de zoom ---*/
+	.zoom{
+		transition: 1.5s ease;
+ 		-moz-transition: 1.5s ease; /* Firefox */
+ 		-webkit-transition: 1.5s ease; /* Chrome - Safari */
+ 		-o-transition: 1.5s ease; /* Opera */
+	}
+	.zoom:hover{
+		transform : scale(2);
+		-moz-transform : scale(2); /* Firefox */
+		-webkit-transform : scale(2); /* Chrome - Safari */
+		-o-transform : scale(2); /* Opera */
+		-ms-transform : scale(2); /* IE9 */
+	}
+	#todito{
+		margin:1%;
+		padding: 1%;
+		vertical-align: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+		width: 100%;
+		height: 100%;
+	}
+	#prueba{
+		padding-top:0%;
+	}
+	#modi{
+		margin: 1;
+		text-align:justify-all;
+		width: 100%;
+		}
+		#imgdiv{
+			padding-top: 5%;
+			padding-bottom:5%;
+				/* la imagen en su forma normal */
+				-webkit-transform:scale(1); /*Webkit: Scale down image to 0.8x original size*/
+-moz-transform:scale(1); /*Mozilla scale version*/
+-o-transform:scale(1); /*Opera scale version*/
+-webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+-moz-transition-duration: 0.5s; /*Mozilla duration version*/
+-o-transition-duration: 0.5s; /*Opera duration version*/
+}
+/* al pasar el cursor por encima SE AMPLIA*/
+#imgdiv img:hover{
+-webkit-transform:scale(2); /*Webkit:Modificamos tamaño a escala*/
+-moz-transform:scale(2); /*Mozilla:Modificamos tamaño a escala*/
+-o-transform:scale(2); /*Opera:Modificamos tamaño a escala*/
+-webkit-transition-duration: 0.5s; /*Webkit:Duración de la animación*/
+-moz-transition-duration: 0.5s; /*Mozilla:Duración de la animació*/
+-o-transition-duration: 0.5s; /*Opera:Duración de la animació*/
+		
+		}
+
+
+.material-icons.orange600 { color: #d4a54c; }
+
+
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la izquierda */
+	top: 100px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+	.social ul {
+		list-style: none;
+	}
+ 
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-instagram {background: #d95232;}
+ 
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		/*padding: 10px 30px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+
+
+/*Trabajando en el inicio de sesión de los clientes*/
+html, #log-cliente{
+	height: 100%;
+	color:lightblue;
+}
+#log-cliente
+{
+	background-color: transparent;
+	background: url(../img/fond.jpg);
+	max-width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+#seccion-login{
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 0px; /* Bajamos la barra 200px de arriba a abajo */
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+#derecha{
+	float: right;
+}
+#alias, #clave, #enviar, #admin{
+	margin-top: 5%;
+}
+#inicio{
+	margin-top: 1%;
+}

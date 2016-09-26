@@ -1,0 +1,18 @@
+body{
+	background: url(../img/fond.jpg);
+}
+
+#minimal
+{
+	width: 55%;
+	 margin: 0 auto;
+	 font-family: "Bell MT";
+	 color: gray;
+	 opacity: 0.9;
+	 margin-top: 21%;
+	 text-align: center;
+}
+#g
+{
+	margin-top: 8.6%;
+}

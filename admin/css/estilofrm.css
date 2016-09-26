@@ -1,0 +1,56 @@
+body {
+ 
+    font-family: 'Open Sans', sans-serif;
+    color: #777;
+    background-image: url(../img/tapiz.jpg);
+    background-attachment: fixed;
+    background-position: center;;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#centro
+{
+    background-color: #F0EEEE;
+    width: 46%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5%;
+  padding-top: 0.01%;
+  border-radius: 5px;
+}
+@media (max-width: 800px) {
+  #centro
+{
+    background-color: #F0EEEE;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6.5%;
+  padding-top: 0.01%;
+  border-radius: 5px;
+}}
+input
+{
+    background-color: #F0EEEE;
+}
+#con
+{
+  background-color: transparent;
+  width: 85%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+padding-bottom: 2%;
+}
+
+#derecha
+{
+  float: right;
+  font-size: 13pt;
+}
+#izquierda2
+{
+  margin-top: 14%;
+}
